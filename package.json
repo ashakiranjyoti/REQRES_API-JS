@@ -4,11 +4,14 @@
   "description": "Playwright API automation boilerplate for ReqRes API",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
-    "test:report": "playwright show-report",
-    "test:env:dev": "cross-env TEST_ENV=dev playwright test",
-    "test:env:qa": "cross-env TEST_ENV=qa playwright test"
-  },
+  "test": "playwright test",
+  "test:report": "playwright show-report",
+  "test:env:dev": "cross-env TEST_ENV=dev playwright test",
+  "test:env:qa": "cross-env TEST_ENV=qa playwright test",
+  "allure:report": "allure generate allure-results --clean -o allure-report",
+  "allure:open": "allure open allure-report",
+  "allure:serve": "allure serve allure-results"
+},
   "keywords": [
     "playwright",
     "api-testing",
@@ -21,6 +24,8 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.3",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.1",
     "cross-env": "^7.0.3"
   }
 }

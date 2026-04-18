@@ -35,9 +35,10 @@ export default defineConfig({
 
   // Reporters: list for clean console, HTML for rich report
   reporter: [
-    ['list'],
-    ['html', { open: 'never', outputFolder: 'playwright-report' }],
-  ],
+  ['list'],
+  ['allure-playwright'],
+  ['html', { open: 'never', outputFolder: 'playwright-report' }],
+],
 
   // Shared settings for all tests
   use: {
