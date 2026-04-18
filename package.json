@@ -1,0 +1,26 @@
+{
+  "name": "reqres-api-playwright",
+  "version": "1.0.0",
+  "description": "Playwright API automation boilerplate for ReqRes API",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "test:env:dev": "cross-env TEST_ENV=dev playwright test",
+    "test:env:qa": "cross-env TEST_ENV=qa playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "api-testing",
+    "reqres",
+    "automation",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "cross-env": "^7.0.3"
+  }
+}

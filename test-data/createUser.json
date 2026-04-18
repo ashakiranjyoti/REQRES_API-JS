@@ -1,0 +1,13 @@
+{
+  "validUser": {
+    "name": "John Doe",
+    "job": "QA Engineer"
+  },
+  "missingJob": {
+    "name": "Jane Doe"
+  },
+  "missingName": {
+    "job": "Developer"
+  }
+}
+
