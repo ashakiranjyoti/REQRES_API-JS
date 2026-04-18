@@ -1,0 +1,2 @@
+[WARN] Response is not JSON. Content-Type: text/html; charset=utf-8. Skipping JSON body assertions to avoid failures.
+[WARN] Skipping body assertion "updatedAt should still be present" because response is not JSON (likely HTML error page in this environment).

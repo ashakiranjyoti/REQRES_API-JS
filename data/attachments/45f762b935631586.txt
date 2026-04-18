@@ -1,0 +1,3 @@
+
+=== DELETE /users/10002 ===
+[INFO] Asserting status is one of [200, 204, 404]. Actual: 404

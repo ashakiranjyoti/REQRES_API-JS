@@ -1,0 +1,3 @@
+
+=== POST /users (create user) ===
+[INFO] Checking success status (2xx). Actual: 404

@@ -1,0 +1,4 @@
+
+=== POST /users (create user) ===
+[INFO] Checking success status (2xx). Actual: 404
+[INFO] Asserting response time < 2000ms. Actual: 137ms

@@ -1,0 +1,7 @@
+
+=== GET /users?page=1 ===
+[INFO] Checking success status (2xx). Actual: 404
+
+=== PUT /users/2 (update user) ===
+[INFO] Checking success status (2xx). Actual: 404
+[INFO] Asserting response time < 2000ms. Actual: 135ms

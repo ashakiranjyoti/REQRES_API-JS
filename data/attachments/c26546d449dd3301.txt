@@ -1,0 +1,3 @@
+
+=== PUT /users/99999 (update user) ===
+[INFO] Asserting status is one of [200, 404]. Actual: 404

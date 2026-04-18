@@ -1,0 +1,7 @@
+
+=== GET /users?page=1 ===
+[INFO] Checking success status (2xx). Actual: 404
+
+=== DELETE /users/2 ===
+[INFO] Asserting status is one of [200, 204]. Actual: 404
+[INFO] Asserting response time < 2000ms. Actual: 137ms

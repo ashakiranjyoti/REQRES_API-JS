@@ -1,0 +1,3 @@
+
+=== GET /users?page=-1 ===
+[INFO] Checking success status (2xx). Actual: 404
