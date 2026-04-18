@@ -4,4 +4,4 @@
 
 === DELETE /users/2 ===
 [INFO] Asserting status is one of [200, 204]. Actual: 404
-[INFO] Asserting response time < 2000ms. Actual: 137ms
+[INFO] Asserting response time < 2000ms. Actual: 90ms
